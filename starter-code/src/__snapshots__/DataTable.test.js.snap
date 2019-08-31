@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Que le pueda dar click al control del checkbox 1`] = `
+"<div>
+  <h1>Busca tus artículos</h1><input type=\\"text\\" name=\\"busqueda\\" value=\\"\\"><input type=\\"checkbox\\" id=\\"chkOnStock\\" name=\\"chkOnStock\\" value=\\"false\\">Only show products on stock
+</div>
+<div>
+  <table id=\\"dataTable\\">
+    <thead>
+      <tr>
+        <th>Name </th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Football</td>
+        <td>$49.99</td>
+      </tr>
+      <tr>
+        <td>Baseball</td>
+        <td>$9.99</td>
+      </tr>
+      <tr>
+        <td>Basketball</td>
+        <td>$29.99</td>
+      </tr>
+      <tr>
+        <td>Tennis Balls</td>
+        <td>$199.99</td>
+      </tr>
+      <tr>
+        <td>iPod Touch</td>
+        <td>$99.99</td>
+      </tr>
+      <tr>
+        <td>iPhone X</td>
+        <td>$399.99</td>
+      </tr>
+      <tr>
+        <td>iPad Mini</td>
+        <td>$199.99</td>
+      </tr>
+      <tr>
+        <td>Huawei P10</td>
+        <td>$199.99</td>
+      </tr>
+    </tbody>
+  </table>
+</div>"
+`;
+
+exports[`Que le pueda dar click al control del checkbox 2`] = `
+"<thead>
+  <tr>
+    <th>Name </th>
+    <th>Price</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Football</td>
+    <td>$49.99</td>
+  </tr>
+  <tr>
+    <td>Baseball</td>
+    <td>$9.99</td>
+  </tr>
+  <tr>
+    <td>Basketball</td>
+    <td>$29.99</td>
+  </tr>
+  <tr>
+    <td>Tennis Balls</td>
+    <td>$199.99</td>
+  </tr>
+  <tr>
+    <td>iPod Touch</td>
+    <td>$99.99</td>
+  </tr>
+  <tr>
+    <td>iPhone X</td>
+    <td>$399.99</td>
+  </tr>
+  <tr>
+    <td>iPad Mini</td>
+    <td>$199.99</td>
+  </tr>
+  <tr>
+    <td>Huawei P10</td>
+    <td>$199.99</td>
+  </tr>
+</tbody>"
+`;

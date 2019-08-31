@@ -10,7 +10,7 @@ const DataTable = () => {
 <div>
     
     
-    <table>
+    <table id="dataTable">
       <thead>
         <tr>
           <th>Name </th>

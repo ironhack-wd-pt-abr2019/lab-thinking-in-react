@@ -30,9 +30,11 @@ const SearchBoxComponent = () =>{
 
     return(
         <div>
-            <h1>Search</h1>
-            <input type= "text" name="busqueda" value={searchText} onChange={(e)=>filtrarArticulos(e)}/>
-            <input type="checkbox" name="chkOnStock" value={inStock} onChange={(e)=>filtrarInStock(e)}/>Only show products on stock        
+            <h1>Busca tus artículos</h1>
+            <input type="text" id="txtUsername"></input>
+            <input type="text" id="txtPassword"></input>
+            <input type= "text" name="busqueda" value={searchText} id="busqueda" onChange={(e)=>filtrarArticulos(e)}/>
+            <input type="checkbox" id="chkOnStock" name="chkOnStock" value={inStock} onChange={(e)=>filtrarInStock(e)}/>Only show products on stock        
             
         </div>
     )       

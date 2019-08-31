@@ -12,7 +12,7 @@ const filterableproducttable = () =>{
       <h3>IronStore</h3>
       <div> 
         <SearchBoxComponent/>
-        <DataTable/>
+        <DataTable id="dataTable" />
       </div>
     </div>
   
